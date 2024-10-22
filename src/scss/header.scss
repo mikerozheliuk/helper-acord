@@ -1,0 +1,51 @@
+.header {
+  padding-top: toRem(20);
+  padding-bottom: toRem(20);
+  background-color: #4782c2;
+
+  // .header__container
+
+  &__container {
+  }
+}
+.menu {
+  // .menu__icon
+
+  &__icon {
+  }
+
+  // .menu__body
+
+  &__body {
+  }
+
+  // .menu__list
+
+  &__list {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: toRem(30);
+  }
+
+  // .menu__item
+
+  &__item {
+  }
+
+  // .menu__link
+
+  &__link {
+    font-weight: 400;
+    color: #ffff;
+    font-size: 24px;
+    transition: all 0.3s;
+
+    &:hover {
+      color: #ccc1c1;
+    }
+  }
+}
+.icon-menu {
+}

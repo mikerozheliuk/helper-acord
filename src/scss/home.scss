@@ -1,0 +1,87 @@
+//====================================================================================================
+.general {
+  padding-top: toRem(40);
+  // .general__container
+
+  &__container {
+  }
+}
+
+.spollers {
+  max-width: toRem(600);
+
+  &__item {
+    border: 1px solid lighten(#4a6e78, 50%);
+  }
+
+  // .spollers__title
+
+  &__title {
+    position: relative;
+    font-weight: 500;
+    font-size: toRem(24);
+    padding: toRem(20) toRem(0);
+    text-align: center;
+    list-style: none;
+
+    &::after {
+      content: "";
+      position: absolute;
+
+      width: 14px;
+      height: 14px;
+      border-right: 2px solid #4a6e78;
+      border-bottom: 2px solid #4a6e78;
+
+      right: 15px;
+      top: 25px;
+      transform: rotate(-45deg);
+      transition: all 0.3s;
+    }
+  }
+
+  // .spollers__body
+
+  &__body {
+    text-align: center;
+    font-size: toRem(20);
+    line-height: 1.5;
+    padding: 10px;
+  }
+}
+
+//====================================================================================================
+._spoller-active::after {
+  transform: rotate(45deg);
+}
+//====================================================================================
+.verstka {
+  padding-top: toRem(30);
+  padding-bottom: toRem(30);
+
+  // .verstka__container
+
+  &__container {
+  }
+}
+//====================================================================================
+.js {
+  padding-bottom: toRem(30);
+  padding-top: toRem(30);
+
+  // .js__title
+}
+//====================================================================================
+.react {
+  padding-bottom: toRem(30);
+
+  // .react__container
+
+  &__container {
+  }
+
+  // .react__grid
+
+  &__grid {
+  }
+}

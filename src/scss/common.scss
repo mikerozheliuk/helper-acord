@@ -1,0 +1,11 @@
+// Заголовки, загальні БЕМ блоки та інше...
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.title {
+  padding-bottom: toRem(20);
+  text-align: center;
+  font-size: toRem(32);
+  font-weight: 800;
+}
